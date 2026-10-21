@@ -1,0 +1,47 @@
+{
+  "nodes": {
+    "net-tree": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792581939,
+        "narHash": "sha256-dkQfWh5hz1jqid9DfhhheS/izKpuRDgoKiKwM9DWbVE=",
+        "ref": "main",
+        "rev": "abeacca61eea4f6803df4a595b656ea45c2d3249",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git"
+      },
+      "original": {
+        "ref": "main",
+        "rev": "abeacca61eea4f6803df4a595b656ea45c2d3249",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1792503283,
+        "narHash": "sha256-vhe2jyvRCgufWPqDuDq1S3t3ypE+ka46IFutV02xKso=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cd4ea8d57de16f4810bc5f14207bac45fbf19f67",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cd4ea8d57de16f4810bc5f14207bac45fbf19f67",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "net-tree": "net-tree",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
